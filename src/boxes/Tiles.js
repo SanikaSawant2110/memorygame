@@ -3,18 +3,18 @@ import Card from './Card'
 
 function Tiles() {
     const [items, setItems] = useState([
-        { id: 1, img: '/img/adminid.png', stat: "" },
-        { id: 2, img: '/img/adminid.png', stat: "" },
-        { id: 3, img: '/img/emerg.png', stat: "" },
-        { id: 4, img: '/img/emerg.png', stat: "" },
-        { id: 5, img: '/img/sabotage.png', stat: "" },
-        { id: 6, img: '/img/sabotage.png', stat: "" },
-        { id: 7, img: '/img/dead.png', stat: "" },
-        { id: 8, img: '/img/dead.png', stat: "" },
-        { id: 9, img: '/img/vent.png', stat: "" },
-        { id: 10, img: '/img/vent.png', stat: "" },
-        { id: 11, img: '/img/report.png', stat: "" },
-        { id: 12, img: '/img/report.png', stat: "" },
+        { id: 1, img: 'https://res.cloudinary.com/dcw8kvpdm/image/upload/v1745084268/dead_elkxsx.jpg', stat: "" },
+        { id: 2, img: 'https://res.cloudinary.com/dcw8kvpdm/image/upload/v1745084268/dead_elkxsx.jpg', stat: "" },
+        { id: 3, img: 'https://res.cloudinary.com/dcw8kvpdm/image/upload/v1745084268/report_gutnjb.jpg', stat: "" },
+        { id: 4, img: 'https://res.cloudinary.com/dcw8kvpdm/image/upload/v1745084268/report_gutnjb.jpg', stat: "" },
+        { id: 5, img: 'https://res.cloudinary.com/dcw8kvpdm/image/upload/v1745084268/adminid_prqqoc.jpg', stat: "" },
+        { id: 6, img: 'https://res.cloudinary.com/dcw8kvpdm/image/upload/v1745084268/adminid_prqqoc.jpg', stat: "" },
+        { id: 7, img: 'https://res.cloudinary.com/dcw8kvpdm/image/upload/v1745084268/vent_fadf3a.jpg', stat: "" },
+        { id: 8, img: 'https://res.cloudinary.com/dcw8kvpdm/image/upload/v1745084268/vent_fadf3a.jpg', stat: "" },
+        { id: 9, img: 'https://res.cloudinary.com/dcw8kvpdm/image/upload/v1745084268/sabotage_tq61wj.jpg', stat: "" },
+        { id: 10, img: 'https://res.cloudinary.com/dcw8kvpdm/image/upload/v1745084268/sabotage_tq61wj.jpg', stat: "" },
+        { id: 11, img: 'https://res.cloudinary.com/dcw8kvpdm/image/upload/v1745084268/emerg_oqldjt.jpg', stat: "" },
+        { id: 12, img: 'https://res.cloudinary.com/dcw8kvpdm/image/upload/v1745084268/emerg_oqldjt.jpg', stat: "" },
     ].sort(() => Math.random() - 0.5))
 
     const [prev, setPrev] = useState(-1)
